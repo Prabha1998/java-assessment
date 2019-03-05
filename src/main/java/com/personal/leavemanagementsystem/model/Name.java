@@ -16,7 +16,6 @@ public class Name implements ValidityCheck {
         }
     }
 
-    @Override
     public boolean isValid(String name){
         return name.length()>50?false:true;
     }

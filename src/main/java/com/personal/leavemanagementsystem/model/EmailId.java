@@ -18,7 +18,6 @@ public class EmailId implements ValidityCheck {
         }
     }
 
-    @Override
     public boolean isValid(String emailId){
 
             String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\."+
